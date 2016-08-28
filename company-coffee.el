@@ -46,15 +46,16 @@
 ;; Internal
 
 (defvar company-keywords-alist)
+;; "var" "function"
 (defvar company-coffee-keywords
   '("and" "await" "break" "by" "catch" "continue"
     "class" "case" "const" "delete" "default" "do" "debugger"
     "defer" "else" "extends" "enum" "export" "__extends"
-    "finally" "for" "function" "__hasProp"
+    "finally" "for" "__hasProp"
     "if" "in" "instanceof" "import" "is" "isnt" "loop"
     "let" "new" "native" "not" "or" "own" "of"
     "return" "switch" "super" "try" "throw" "typeof" "then" "until"
-    "unless" "var" "void" "while" "with" "when" "yield"))
+    "unless" "void" "while" "with" "when" "yield"))
 
 ;;;###autoload
 (defun company-coffee-add-keywords ()
