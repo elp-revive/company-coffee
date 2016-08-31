@@ -55,6 +55,8 @@
      ("not" . "!")
      ("and" . "&&")
      ("or" . "||")
+     ("or=" . "||= (false, \"\", 0, null)")
+     ("?=" . "||= (only when null/undefined)")
      ("true" . "true")
      ("yes" . "true")
      ("on" . "true")
