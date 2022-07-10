@@ -1,9 +1,10 @@
-;;; company-coffee --- Emacs coffee completion
+;;; company-coffee --- Emacs coffee completion  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2016, Noah Peart
 ;; Copyright (C) 2022, Jen-Chieh Shen
 
 ;; Author: Noah Peart <noah.v.peart@gmail.com>
+;; Maintainer: Jen-Chieh Shen <jcs090218@gmail.com>
 ;; URL: https://github.com/elp-revive/company-coffee
 ;; Package-Requires: ((emacs "26.1") (company "0.8.12"))
 
