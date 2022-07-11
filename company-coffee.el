@@ -83,17 +83,16 @@
     ))
 
 (defvar company-coffee-keywords
-  (eval-when-compile
-    (sort
-     (append
-      (cl-loop for (k . v) in company-coffee-compares
-               do (put-text-property 0 1 'annot v k)
-               collect k)
-      (cl-loop for (k . v) in company-coffee-math
-               do (put-text-property 0 1 'annot v k)
-               collect k)
-      company-coffee-words)
-     'string<)))
+  (sort
+   (append
+    (cl-loop for (k . v) in company-coffee-compares
+             do (put-text-property 0 1 'annot v k)
+             collect k)
+    (cl-loop for (k . v) in company-coffee-math
+             do (put-text-property 0 1 'annot v k)
+             collect k)
+    company-coffee-words)
+   'string<))
 
 (defun company-coffee-prefix ()
   (and (derived-mode-p major-mode company-coffee-modes)
