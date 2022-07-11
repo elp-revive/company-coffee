@@ -8,6 +8,7 @@
 (package-file "company-coffee.el")
 
 (source "gnu")
+(source "melpa")
 
 (depends-on "emacs" "26.1")
 (depends-on "company")
