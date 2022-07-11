@@ -2,3 +2,5 @@
 [![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/company-coffee.svg)](https://jcs-emacs.github.io/jcs-elpa/#/company-coffee)
 
 # company-coffee
+
+[![CI](https://github.com/elp-revive/company-coffee/actions/workflows/test.yml/badge.svg)](https://github.com/elp-revive/company-coffee/actions/workflows/test.yml)
