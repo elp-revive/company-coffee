@@ -1,4 +1,4 @@
-;;; company-coffee --- Emacs coffee completion  -*- lexical-binding: t; -*-
+;;; company-coffee.el --- Emacs coffee completion  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2016, Noah Peart
 ;; Copyright (C) 2022, Jen-Chieh Shen
@@ -6,7 +6,9 @@
 ;; Author: Noah Peart <noah.v.peart@gmail.com>
 ;; Maintainer: Jen-Chieh Shen <jcs090218@gmail.com>
 ;; URL: https://github.com/elp-revive/company-coffee
+;; Version: 0.0.1
 ;; Package-Requires: ((emacs "26.1") (company "0.8.12"))
+;; Keywords: convenience
 
 ;; This file is not part of GNU Emacs.
 ;;
@@ -32,8 +34,7 @@
 
 ;;; Code:
 
-(eval-when-compile
-  (require 'cl-lib))
+(eval-when-compile (require 'cl-lib))
 
 (require 'company)
 
