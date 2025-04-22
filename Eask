@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "company-coffee"
          "0.0.1"
          "Emacs coffee completion")
